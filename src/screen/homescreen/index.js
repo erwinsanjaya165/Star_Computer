@@ -10,6 +10,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
+import {IconSearch} from '../../assets';
 import {Warna_Sekunder, Warna_Background} from '../../utils/index';
 
 const Home = () => {
@@ -19,9 +20,11 @@ const Home = () => {
       <Text style={styles.textCom}>Computer Store</Text>
       <View style={styles.boxSerCon}>
         <View style={styles.boxSearch}>
-          <TextInput placeholder="search" style={styles.textInput}></TextInput>
+          <TextInput placeholder="search" style={styles.textInput} />
         </View>
-        <TouchableOpacity style={styles.boxIconSearch}></TouchableOpacity>
+        <TouchableOpacity style={styles.boxIconSearch}>
+          <IconSearch />
+        </TouchableOpacity>
       </View>
     </View>
   );

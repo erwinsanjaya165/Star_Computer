@@ -23,6 +23,7 @@ import IconHp from './telpon.svg';
 import IconInfo from './info.svg';
 import IconLogout from './logout.svg';
 import IconCamera from './camera.svg';
+import IconSearch from './search.svg';
 
 export {
   IconHome,
@@ -50,4 +51,5 @@ export {
   IconInfo,
   IconLogout,
   IconCamera,
+  IconSearch,
 };
